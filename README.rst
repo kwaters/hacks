@@ -17,3 +17,10 @@ gb-logic-decoder
 A frame decoder to parse the logic analyser dump from
 http://flashingleds.wordpress.com/2010/10/26/intercepting-the-gameboy-lcd/.
 Mostly an excuse to play with NumPy.
+
+tsuro
+-----
+
+List the unique tiles in the boardgame Tsuro.  I don't think there is an "easy"
+way to compute this numer, because neither the tiles nor the rotations are
+normal subgroups of P_8.  Then again my algebra is poor.
