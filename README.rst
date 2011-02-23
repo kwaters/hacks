@@ -10,3 +10,10 @@ To quote jwz,
   need.  This means that they are not necessarily very polished, but possibly
   you'll find some of them useful. Please take most them in the context of
   "one-hour hacks that have lived on far longer than expected."
+
+gb-logic-decoder
+----------------
+
+A frame decoder to parse the logic analyser dump from
+http://flashingleds.wordpress.com/2010/10/26/intercepting-the-gameboy-lcd/.
+Mostly an excuse to play with NumPy.
