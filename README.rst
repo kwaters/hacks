@@ -24,3 +24,8 @@ tsuro
 List the unique tiles in the boardgame Tsuro.  I don't think there is an "easy"
 way to compute this numer, because neither the tiles nor the rotations are
 normal subgroups of P_8.  Then again my algebra is poor.
+
+unpack-rftg.py
+--------------
+
+Unpack the images from http://www.keldon.net/rftg/ so I can read the cards.
