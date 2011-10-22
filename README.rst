@@ -29,3 +29,8 @@ unpack-rftg.py
 --------------
 
 Unpack the images from http://www.keldon.net/rftg/ so I can read the cards.
+
+link-a-pix.py
+-------------
+
+Link-a-pix solver.  Works by reducing the problem to exact cover.
