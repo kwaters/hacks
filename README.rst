@@ -34,3 +34,8 @@ link-a-pix.py
 -------------
 
 Link-a-pix solver.  Works by reducing the problem to exact cover.
+
+ff-13-2-clock
+-------------
+
+Solver for the Clock puzzle in FF XIII-2.  There are many like it, but this one's mine.
