@@ -20,8 +20,8 @@ def create_grid(clock):
 
     # The first and last numbers are special
     for i in xrange(size):
-        m.append([2, (0, i)])
-        m.append([3, (1, i)])
+        m.append([(0, -1), (1, i)])
+        m.append([(0, i), (1, -1)])
 
     return m
 
@@ -29,16 +29,13 @@ def print_solution(clock, covering):
     """Print the solution coresponding to a covering."""
     mapping = {}
     for source, dest in covering:
-        if source == 3:
-            start = dest[1]
-        elif source == 2:
-            end = dest[1]
-        else:
-            mapping[source[1]] = dest[1]
+        mapping[source[1]] = dest[1]
 
-    chain = [start]
-    while chain[-1] != end:
-        chain.append(mapping[chain[-1]])
+    chain = []
+    i = mapping[-1]
+    while i != -1:
+        chain.append(i)
+        i = mapping[i]
 
     # Not all coverings form a valid solution.  Some will contain an
     # unconnected cycle.
