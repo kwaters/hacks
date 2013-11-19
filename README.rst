@@ -39,3 +39,8 @@ ff-13-2-clock
 -------------
 
 Solver for the Clock puzzle in FF XIII-2.  There are many like it, but this one's mine.
+
+toposort
+--------
+
+Playing with a basic topological sort.  Outputs random graphs in .dot format.
