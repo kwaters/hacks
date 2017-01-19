@@ -18,6 +18,10 @@ A frame decoder to parse the logic analyser dump from
 http://flashingleds.wordpress.com/2010/10/26/intercepting-the-gameboy-lcd/.
 Mostly an excuse to play with NumPy.
 
+http://flashingleds.wordpress.com is now offline.  The blog post is available
+via archive.org, but the dump is not.  The dump is included in this repository
+for posterity.
+
 tsuro
 -----
 
